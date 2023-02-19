@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package oicq;
+
+message DeviceReport {
+  bytes bootloader = 1;
+  bytes version = 2;
+  bytes codename = 3;
+  bytes incremental = 4;
+  bytes fingerprint = 5;
+  bytes bootId = 6;
+  bytes androidId = 7;
+  bytes baseband = 8;
+  bytes innerVer = 9;
+}
